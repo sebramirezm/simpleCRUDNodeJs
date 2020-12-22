@@ -1,0 +1,27 @@
+{
+  "name": "simplecrudnodejs",
+  "version": "1.0.0",
+  "description": "Exercice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebramirezm/simpleCRUDNodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebramirezm/simpleCRUDNodeJs/issues"
+  },
+  "homepage": "https://github.com/sebramirezm/simpleCRUDNodeJs#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.7",
+    "nodemon": "^2.0.6"
+  }
+}
